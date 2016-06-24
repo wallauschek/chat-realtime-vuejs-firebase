@@ -1,3 +1,13 @@
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCQOOXiRb13u9o8ZWZt7yi_sk8ebmqX1fY",
+    authDomain: "vuejs-firebase-18ca2.firebaseapp.com",
+    databaseURL: "https://vuejs-firebase-18ca2.firebaseio.com",
+    storageBucket: "",
+  };
+  firebase.initializeApp(config);
+
+
 var chatComponent = Vue.extend({
 	template:`
 	<style type="text/css" scoped>
